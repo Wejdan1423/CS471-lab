@@ -1,0 +1,9 @@
+{% extends 'layouts/base1.html' %}
+
+{% block content %}
+<h2>{{ book.title }}</h2>
+<p>المؤلف: {{ book.author }}</p>
+<p>تاريخ النشر: {{ book.published_date }}</p>
+<p>{{ book.summary }}</p>
+<a href="/">الرجوع للقائمة</a>
+{% endblock %}
